@@ -42,7 +42,7 @@ function Detail(props) {
             <div className="title"style={{height:"130px"}}><h1 style={{color:"#f4f4f4",fontSize:"30px"}}>{title}</h1></div>
              
              <img className="Detail__img"src={image} alt={title}/>
-             <label className="label"style={{marginLeft:"10px",paddingTop:"5px"}}><a href={url} style={{color:"#f4f4f4"}}>Website</a></label>
+             <label className="label"style={{marginLeft:"10px",marginTop:"15px",paddingTop:"15px"}}><a href={url} style={{color:"#f4f4f4"}}>Website</a></label>
             
             
     

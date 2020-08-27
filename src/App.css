@@ -38,7 +38,7 @@
 }
 .Detail__img{
   border-radius: 0.1rem;
- 
+  
 }
 .Detail__steps{
   position: relative;
@@ -94,7 +94,7 @@
 }
 .label a:hover{
   font-weight: bold;
- 
+  color: #d49a89;
 }
 
 .title{

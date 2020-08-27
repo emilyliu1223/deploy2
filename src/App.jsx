@@ -30,6 +30,7 @@ function App() {
 
     const APP_ID="acde7f85";
     const APP_KEY="9c3a16c5228459e897dc1dbc61461562"; 
+    
     const[recipes,setRecipes]=useState([]);
     const[search, setSearch]=useState("");
     const [query, setQuery]=useState('chicken');
@@ -83,9 +84,9 @@ function App() {
         
          <div className="container">
          <div className="row">
-       {recipes.map(recipe=>(
+       {recipes.map((recipe,index)=>(
         
-           <div key={recipe.recipe.label} className="col-md-4">
+           <div key={index} className="col-md-4">
          <Recipe title={recipe.recipe.label}
                  image={recipe.recipe.image}
                  calories={recipe.recipe.calories}
